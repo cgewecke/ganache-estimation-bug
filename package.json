@@ -1,0 +1,32 @@
+{
+  "name": "ganache-estimation-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "TEST=ganache ./scripts/test.sh",
+    "test:ganache": "TEST=ganache ./scripts/test.sh",
+    "test:geth": "TEST=geth ./scripts/test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgewecke/ganache-estimation-bug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgewecke/ganache-estimation-bug/issues"
+  },
+  "homepage": "https://github.com/cgewecke/ganache-estimation-bug#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.0-beta.7",
+    "@nomiclabs/buidler-truffle5": "^1.0.0-beta.7",
+    "@nomiclabs/buidler-web3": "^1.0.0-beta.7",
+    "ganache-cli": "^6.4.3",
+    "geth-dev-assistant": "0.0.3",
+    "web3": "1.0.0-beta.37"
+  }
+}
